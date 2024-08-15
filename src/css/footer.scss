@@ -1,0 +1,18 @@
+.footerWrap {
+    border-top: 1px solid #474747;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 0 100px 0;
+
+    .footerIcon {
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.myselfWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .myselfContent {
+        line-height: 90px;
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    .myselfImage {
+        background-color: #fff;
+        width: 300px;
+        height: 300px;
+    }
+}

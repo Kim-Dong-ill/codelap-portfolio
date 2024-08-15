@@ -1,0 +1,29 @@
+.cardWrap {
+    width: 380px;
+    // height: 600px;
+    background-color: #363636;
+    border-radius: 10px;
+
+    .cardImage {
+        background-color: #fff;
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        height: 300px;
+    }
+
+    .cardContent {
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .cardTitle {
+            color: #CCCCCC;
+            font-size: 28px;
+        }
+
+        .cardSub {
+            font-size: 18px;
+        }
+    }
+}
