@@ -18,6 +18,15 @@
         display: grid;
         gap: 80px;
 
+        li {
+            transition: 0.25s;
+        }
+
+        li:hover {
+            scale: 1.02;
+        }
+
+
         li:nth-child(1) {
             grid-column: 1 / 2;
             grid-row: 1 / 2;

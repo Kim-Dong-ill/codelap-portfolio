@@ -1,4 +1,5 @@
 import React from 'react'
+import coder from '../images/Coder_Side 1.svg'
 
 function Myself() {
     return (
@@ -9,7 +10,7 @@ function Myself() {
                 <p>김동일 입니다.</p>
             </div>
             <div className='myselfImage'>
-                <img src="" alt="" />
+                <img src={coder} alt="" />
             </div>
         </div >
     )

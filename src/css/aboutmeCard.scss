@@ -1,0 +1,37 @@
+.aboutMeCardWrap {
+    width: 1000px;
+    border-bottom: 2px solid #6b6b6b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding: 32px;
+
+    .aboutTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .titleContent {
+            font-size: 20px;
+        }
+    }
+
+    .aboutSubTitle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .subTitle {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .subCalender {
+            img {
+                margin-right: 10px;
+            }
+        }
+    }
+}

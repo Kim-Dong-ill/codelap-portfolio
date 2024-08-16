@@ -1,13 +1,13 @@
 import React from 'react'
 import '../css/card.scss'
 
-function ProjectCard() {
+function ProjectCard({ item }) {
     return (
         <div className='cardWrap'>
-            <div className='cardImage'><img src="" alt="" /></div>
+            <div className='cardImage'><img src={item?.image} alt="" /></div>
             <div className='cardContent'>
-                <div className='cardTitle'>프로젝트 이름</div>
-                <div className='cardSub'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam laboriosam maxime quis voluptate at ut, incidunt quae quisquam ipsa reprehenderit.</div>
+                <div className='cardTitle'>{item?.title}</div>
+                <div className='cardSub'>{item?.content}</div>
             </div>
         </div>
     )
