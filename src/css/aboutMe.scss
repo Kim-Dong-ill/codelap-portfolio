@@ -10,6 +10,10 @@
         justify-content: center;
         gap: 20px;
 
+        .aboutMeTitle {
+            width: 260px;
+        }
+
         .aboutMeContent {
             font-size: 18px;
         }
@@ -21,6 +25,10 @@
         justify-content: center;
         gap: 20px;
 
+        .edTitle {
+            width: 580px;
+        }
+
         .edContent {
             display: flex;
             flex-direction: column;
@@ -30,8 +38,6 @@
     }
 }
 
-.aboutisTitle {
-    font-size: 42px;
-    font-weight: bolder;
-    color: #979ae6;
+.deTitle {
+    width: 540px;
 }

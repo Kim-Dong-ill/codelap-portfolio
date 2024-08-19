@@ -15,7 +15,7 @@
         padding: 0.3em 1em;
         border: none;
         outline: none;
-        background: #111;
+        background: #191919;
         // cursor: pointer;
         position: relative;
         z-index: 0;
@@ -28,15 +28,12 @@
     .logo:before {
         content: "";
         background: linear-gradient(45deg,
-                #ff0000,
-                #ff7300,
-                #fffb00,
-                #48ff00,
-                #00ffd5,
-                #002bff,
-                #7a00ff,
-                #ff00c8,
-                #ff0000);
+                #ff7b006c,
+                #ff7b0052,
+                #ff7b009f,
+                #ff7b0081,
+                #ff7b00d5,
+            );
         position: absolute;
         top: -2px;
         left: -2px;
@@ -71,7 +68,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background: #222;
+        background: #191919;
         left: 0;
         top: 0;
         border-radius: 100px;

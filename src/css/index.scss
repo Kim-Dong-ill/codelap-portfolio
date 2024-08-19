@@ -16,9 +16,24 @@
 }
 
 .title {
-    color: #CCCCCC;
+    color: rgb(236, 236, 236);
     font-size: 52px;
     font-weight: bold;
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    /* 의사 요소에 콘텐츠를 추가 */
+    position: absolute;
+    bottom: -8px;
+    /* 텍스트 아래에 밑줄이 오도록 위치 조정 */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65%;
+    height: 3px;
+    background-color: #db7b21;
+    /* 주황색 밑줄 */
 }
 
 .subtitle {

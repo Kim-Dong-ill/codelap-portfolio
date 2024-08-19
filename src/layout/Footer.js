@@ -4,6 +4,8 @@ import youtube from '../images/Group.svg'
 import blog from '../images/sns blog.svg'
 import { Link } from 'react-router-dom'
 import logo from '../images/Frame 7.svg'
+import kimdongill from '../images/name.svg'
+
 
 function Footer() {
 
@@ -21,7 +23,7 @@ function Footer() {
 
     return (
         <div className='footerWrap'>
-            <div className='logo'>Developer</div>
+            <div className='logo'><img src={kimdongill} alt="" /></div>
             <div className='footerEmail'><button className='button-54' role="button" onClick={copyToClipboard}>ehddlf2893@naver.com</button></div>
             <div className='footerIcon'>
                 <ul>

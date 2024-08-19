@@ -13,7 +13,9 @@
         justify-content: space-between;
 
         .titleContent {
-            font-size: 20px;
+            color: rgb(236, 236, 236);
+            font-size: 24px;
+            font-weight: bold;
         }
     }
 
@@ -34,4 +36,14 @@
             }
         }
     }
+
+    .subImport {
+        padding-left: 50px;
+        color: rgb(233, 233, 233);
+    }
+}
+
+.asdasd {
+    padding-left: 50px;
+    color: rgb(233, 233, 233);
 }
