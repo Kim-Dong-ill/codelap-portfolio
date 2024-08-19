@@ -26,7 +26,7 @@ function AboutMe() {
                 <div className='edContent'>
                     {exper.map((item, idx) => {
                         return (
-                            <div key={idx}><AboutMeCard item={item} /></div>
+                            <div className='abcard' key={idx}><AboutMeCard item={item} /></div>
                         )
                     })}
                 </div>
@@ -36,7 +36,7 @@ function AboutMe() {
                 <div className='deContent'>
                     {developer.map((item, idx) => {
                         return (
-                            <div key={idx}><AboutMeCard item={item} /></div>
+                            <div className='abcard' key={idx}><AboutMeCard item={item} /></div>
                         )
                     })}
                 </div>
