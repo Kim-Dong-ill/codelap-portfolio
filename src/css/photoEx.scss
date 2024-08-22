@@ -1,0 +1,61 @@
+.photoExWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 150px;
+
+    .ascPhotoWrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+
+        .ascImg {
+            width: 1000px;
+            height: 700px;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 1000px;
+            }
+        }
+
+        .ascEx {
+            width: 600px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-size: 50px;
+            font-style: oblique;
+        }
+    }
+
+    .dscPhotoWrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        gap: 10px;
+
+        .ascImg {
+            width: 1000px;
+            height: 700px;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 1000px;
+            }
+        }
+
+        .ascEx {
+            width: 600px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-size: 50px;
+            font-style: oblique;
+        }
+    }
+}

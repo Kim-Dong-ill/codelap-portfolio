@@ -3,6 +3,7 @@ import Header from '../layout/Header'
 import Footer from '../layout/Footer'
 import Youtube from '../layout/Youtube'
 import LogoLink from '../layout/LogoLink'
+import PhotoEx from '../layout/PhotoEx'
 
 function ProjectDetail() {
     const list = [
@@ -64,7 +65,7 @@ function ProjectDetail() {
         <div className='website'>
             <Header />
             <Youtube list={list} />
-            <div>사진+설명</div>
+            <PhotoEx />
             <LogoLink list={list} />
             <Footer />
         </div>
