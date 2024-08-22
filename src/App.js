@@ -5,6 +5,7 @@ import "./css/index.scss"
 import About from './page/About'
 import TechStack from './page/TechStack'
 import Project from './page/Project'
+import ProjectDetail from './page/ProjectDetail'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about" index element={<About />}></Route>
         <Route path="/techstack" index element={<TechStack />}></Route>
         <Route path="/project" index element={<Project />}></Route>
+        <Route path="/projectDetail/:id" index element={<ProjectDetail />}></Route>
       </Routes>
     </>
   )

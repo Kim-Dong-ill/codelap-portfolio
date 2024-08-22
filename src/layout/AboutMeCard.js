@@ -5,6 +5,7 @@ import location from '../images/basil_location-outline.svg'
 import calender from '../images/simple-line-icons_calender.svg'
 import arrow from '../images/clarity_child-arrow-line.svg'
 import check from '../images/entypo_check (1).svg'
+import { Link } from 'react-router-dom'
 
 function AboutMeCard({ item }) {
     console.log(item);
@@ -12,7 +13,7 @@ function AboutMeCard({ item }) {
     return (
         <div className='aboutMeCardWrap'>
             <div className='aboutTitle'>
-                <div className='titleContent'>{item?.title}</div>
+                <div className='titleContent'><Link to={item.link ? item.link : null}>{item?.title}</Link></div>
                 {item?.import == true ? <div className='titleImg'><img src={start} alt="" /></div> : ""}
             </div>
             <div className='aboutSubTitle'>

@@ -12,8 +12,8 @@ function AboutMe() {
     ]
 
     const developer = [
-        { title: "이젠아카데미", import: true, subtitle: "(스마트웹&콘텐츠개발) 풀스택 프론트엔드&백엔드) 자바개발자 양성 D", location: "서울 구로구", startDate: "2023.06.07", endDate: "2023.11.20", detail: [{ task: "Html / Css / JS" }, { task: "Java" }, { task: "Spring Boot" }, { task: "Oracle" }] },
-        { title: "코드랩아카데미", import: true, subtitle: "클라우드 활용 o2o 서비스 플랫폼 웹&앱 개발", location: "서울 가산동", startDate: "2024.02.27", endDate: "2024.08.06", detail: [{ task: "Spring Boot" }, { task: "Node" }, { task: "Dbeaver" }, { task: "Docker" }] },
+        { title: "이젠아카데미", link: "https://www.ezenac.co.kr/", import: true, subtitle: "(스마트웹&콘텐츠개발) 풀스택 프론트엔드&백엔드) 자바개발자 양성 D", location: "서울 구로구", startDate: "2023.06.07", endDate: "2023.11.20", detail: [{ task: "Html / Css / JS" }, { task: "Java" }, { task: "Spring Boot" }, { task: "Oracle" }] },
+        { title: "코드랩아카데미", link: "https://codelabit.co.kr/", import: true, subtitle: "클라우드 활용 o2o 서비스 플랫폼 웹&앱 개발", location: "서울 가산동", startDate: "2024.02.27", endDate: "2024.08.06", detail: [{ task: "Spring Boot" }, { task: "Node" }, { task: "Dbeaver" }, { task: "Docker" }, { task: "MongoDB" }] },
     ]
     return (
         <div className='aboutMe'>
