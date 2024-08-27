@@ -18,6 +18,7 @@
 
             img {
                 width: 1000px;
+                height: 100%;
             }
         }
 
@@ -46,6 +47,7 @@
 
             img {
                 width: 1000px;
+                height: 100%;
             }
         }
 
@@ -57,5 +59,18 @@
             font-size: 50px;
             font-style: oblique;
         }
+    }
+}
+
+@media (max-width: 1700px) {
+    .ascPhotoWrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dscPhotoWrap {
+        display: flex;
+        flex-direction: column !important;
+
     }
 }

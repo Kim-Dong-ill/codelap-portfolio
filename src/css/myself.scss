@@ -25,3 +25,10 @@
         }
     }
 }
+
+@media (max-width:1700px) {
+    .myselfWrap {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

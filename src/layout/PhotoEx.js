@@ -37,7 +37,7 @@ function PhotoEx() {
 
     return (
         <>
-            {id === 1 ? <div className='photoExWrap'>
+            {id == 1 ? <div className='photoExWrap'>
                 <div className='ascPhotoWrap'>
                     <div className='ascImg'><img src={ak1} alt="" /></div>
                     <div className='ascEx'>시간이 지나면 페이드로 변하는 메인 페이지 </div>
@@ -55,7 +55,7 @@ function PhotoEx() {
                     <div className='ascEx'>이미지뿐 아니라 글도 함께 슬라이드</div>
                 </div>
             </div> : ""}
-            {id === 2 ? <div className='photoExWrap'>
+            {id == 2 ? <div className='photoExWrap'>
                 <div className='ascPhotoWrap'>
                     <div className='ascImg'><img src={k1} alt="" /></div>
                     <div className='ascEx'>맨 처음 보이는 <br />로딩화면</div>
@@ -85,7 +85,7 @@ function PhotoEx() {
                     <div className='ascEx'>유저의 정보와<br /> 상세정보 수정가능</div>
                 </div>
             </div> : ""}
-            {id === 3 ? <div className='photoExWrap'>
+            {id == 3 ? <div className='photoExWrap'>
                 <div className='ascPhotoWrap'>
                     <div className='ascImg'><img src={dd1} alt="" /></div>
                     <div className='ascEx'>회원가입시 반려견 유무와 이메일 중복체크, <br />비밀번호 확인, <br />이미지 등록</div>
@@ -111,7 +111,7 @@ function PhotoEx() {
                     <div className='ascEx'>3마리의 반려견 등록과<br /> 대표견 설정 가능</div>
                 </div>
             </div> : ""}
-            {id === 4 ? <div className='photoExWrap'>
+            {id == 4 ? <div className='photoExWrap'>
                 <div className='ascPhotoWrap'>
                     <div className='ascImg'><img src={st12} alt="" /></div>
                     <div className='ascEx'>로딩화면에서 로그인 유무 확인 후 이동 경로 설정</div>
