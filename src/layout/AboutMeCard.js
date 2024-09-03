@@ -8,8 +8,8 @@ import check from '../images/entypo_check (1).svg'
 import { Link } from 'react-router-dom'
 
 function AboutMeCard({ item }) {
-    console.log(item);
-    console.log(item.detail.length);
+
+
     return (
         <div className='aboutMeCardWrap'>
             <div className='aboutTitle'>

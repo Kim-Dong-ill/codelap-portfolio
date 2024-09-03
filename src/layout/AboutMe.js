@@ -19,7 +19,9 @@ function AboutMe() {
         <div className='aboutMe'>
             <div className='aboutMeInner'>
                 <div className='aboutMeTitle title'>About Me</div>
-                <div className='aboutMeContent'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, sapiente ut fugit beatae quo deserunt est porro alias maxime eaque.</div>
+                <div className='aboutMeContent'>안녕하세요! 저는 언제나 새로운 기술을 탐험하고, 그것을 실제 프로젝트에 반영하는 것을 좋아하는 풀스택 개발자입니다.<br />지도 API부터 날씨 API, 카카오 결제 시스템, 그리고 예약 시스템까지, 프로젝트의 중요한 기능들을 직접 구현하며 성장해 왔습니다.<br />기능을 개발하는 동안에는 코드가 어떻게 하면 더 깔끔하고 단순해질 수 있을지 끊임없이 고민하려고 노력합니다.<br />저는 이런 과정 속에서 배우는 것을 매우 좋아하며, 항상 더 나은 개발자가 되기 위해 노력하고 있습니다.
+
+                </div>
             </div>
             <div className='aboutMeEd'>
                 <div className='edTitle title'>Education / Experience</div>

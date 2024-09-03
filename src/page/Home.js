@@ -5,10 +5,14 @@ import Myself from '../layout/Myself'
 import TechSAtack from '../layout/TechSAtack'
 import Project from '../layout/Project'
 
-function Home() {
+function Home({ handleMode }) {
+
+    const handleSetMode = (newMode) => {
+        handleMode(newMode)
+    };
     return (
         <div className='website'>
-            <Header />
+            <Header handleSetMode={handleSetMode} />
             <Myself />
             <TechSAtack />
             <Project />
