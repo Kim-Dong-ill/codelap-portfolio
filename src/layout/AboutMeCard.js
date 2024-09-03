@@ -14,7 +14,7 @@ function AboutMeCard({ item }) {
         <div className='aboutMeCardWrap'>
             <div className='aboutTitle'>
                 <div className='titleContent'><Link to={item.link ? item.link : null}>{item?.title}</Link></div>
-                {item?.import == true ? <div className='titleImg'><img src={start} alt="" /></div> : ""}
+                {/* {item?.import == true ? <div className='titleImg'><img src={start} alt="" /></div> : ""} */}
             </div>
             <div className='aboutSubTitle'>
                 <div className='subTitle'>
