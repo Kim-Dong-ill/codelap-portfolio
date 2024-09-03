@@ -11,7 +11,7 @@ function Project() {
         idx: 1,
         image: ak,
         title: "애경산업",
-        content: "하나의 샘플 사이트를 보고 두명이서 작업했습니다. back은 없고 front만 작업을 하였고 bootstrap grid를 사용하였습니다. open weather api를 사용하여 날씨 정보를 확인할 수 있고 kakao map api를 사용하여 지도에 확인할 수 있게 했습니다.",
+        content: "하나의 샘플 사이트를 보고 작업했습니다. back은 없고 front만 작업을 하였고 bootstrap grid를 사용하였습니다. open weather api를 사용하여 날씨 정보를 확인할 수 있고 kakao map api를 사용하여 지도에 확인할 수 있게 했습니다.",
         youtube: true,
         figma: false,
         github: true,
