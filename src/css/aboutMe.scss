@@ -16,7 +16,7 @@
 
         .aboutMeContent {
             font-size: 22px;
-            line-height: 35px;
+            line-height: 50px;
             color: rgb(204, 204, 204);
         }
     }
@@ -35,7 +35,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            gap: 20px;
+            gap: 40px;
         }
     }
 }
@@ -45,6 +45,13 @@
     flex-direction: column;
     justify-content: center;
     gap: 50px;
+
+    .deContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
 }
 
 .deTitle {

@@ -1,10 +1,9 @@
 .aboutMeCardWrap {
-    width: 1000px;
     border-bottom: 2px solid #6b6b6b;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
     padding: 32px;
 
     .aboutTitle {
@@ -22,7 +21,7 @@
     .aboutSubTitle {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: start;
 
         .subTitle {
             display: flex;
@@ -34,6 +33,13 @@
             img {
                 margin-right: 10px;
             }
+        }
+
+        .subDetails {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            gap: 20px;
         }
     }
 

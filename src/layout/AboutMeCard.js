@@ -21,9 +21,9 @@ function AboutMeCard({ item }) {
                     <div className='subTitleContent'><img src={company} alt="" />{item?.subtitle}</div>
                     <div className='subTitleLoc'><img src={location} alt="" />{item?.location}</div>
                 </div>
+                <div className='subDetails'>{item?.detail.length > 1 ? item.detail.map((item, idx) => { return <div key={idx} className='asdasd'><img src={arrow} alt="" /> {item.task}<img src={check} alt="" /></div> }) : item?.detail[0].task != "" ? <div className='subImport'><img src={arrow} alt="" /> {item?.detail[0].task} <img src={check} alt="" /></div> : ""}</div>
                 <div className='subCalender'><img src={calender} alt="" />{item?.startDate} ~ {item?.endDate}</div>
             </div>
-            {item?.detail.length > 1 ? item.detail.map((item, idx) => { return <div key={idx} className='asdasd'><img src={arrow} alt="" /> {item.task}<img src={check} alt="" /></div> }) : item?.detail[0].task != "" ? <div className='subImport'><img src={arrow} alt="" /> {item?.detail[0].task} <img src={check} alt="" /></div> : ""}
         </div>
     )
 }
